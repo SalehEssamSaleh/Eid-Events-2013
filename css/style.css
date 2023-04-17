@@ -1,0 +1,376 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: LamaSans-Regular;
+    color: white !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Insert Font 
+LamaSans-Black & LamaSans-Bold & LamaSans-ExtraBold
+LamaSans-ExtraLight & LamaSans-Light & LamaSans-Medium
+LamaSans-Regular & LamaSans-SemiBold & LamaSans-Thin
+*/
+@font-face {
+    font-family: LamaSans-Black;
+    src: url(../Fonts/LamaSans-Black.woff2);
+}
+
+@font-face {
+    font-family: LamaSans-Bold;
+    src: url(../Fonts/LamaSans-Bold.woff2);
+}
+
+@font-face {
+    font-family: LamaSans-ExtraBold;
+    src: url(../Fonts/LamaSans-ExtraBold.woff2);
+}
+
+@font-face {
+    font-family: LamaSans-ExtraLight;
+    src: url(../Fonts/LamaSans-ExtraLight.woff2);
+}
+
+@font-face {
+    font-family: LamaSans-Light;
+    src: url(../Fonts/LamaSans-Light.woff2);
+}
+
+@font-face {
+    font-family: LamaSans-Medium;
+    src: url(../Fonts/LamaSans-Medium.woff2);
+}
+
+@font-face {
+    font-family: LamaSans-Regular;
+    src: url(../Fonts/LamaSans-Regular.woff2);
+}
+
+@font-face {
+    font-family: LamaSans-SemiBold;
+    src: url(../Fonts/LamaSans-SemiBold.woff2);
+}
+
+@font-face {
+    font-family: LamaSans-Thin;
+    src: url(../Fonts/LamaSans-Thin.woff2);
+}
+
+
+/* NavBar */
+
+.navbar-nav .nav-link {
+    font-family: LamaSans-Light;
+    font-size: 18px;
+    line-height: 27px;
+    color: white !important;
+    text-align: right;
+    padding: 8px 40px 8px 40px !important;
+    cursor: pointer;
+    height: 43px;
+    transition: all .2s ease-in-out;
+
+}
+
+.actived {
+    background-color: #ed3a79 !important;
+    border-radius: 24px;
+    transition: all .1s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    transform: scale(1.1);
+}
+
+
+/* The Slider Content */
+
+.w-100 {
+    height: 100vh;
+}
+
+h2 {
+    font-family: LamaSans-Bold;
+    font-size: 44px !important;
+    line-height: 52px;
+    margin-top: 16px;
+}
+
+.carousel-caption p {
+    font-family: LamaSans-Bold;
+    font-size: 27px;
+    line-height: 40.5px;
+    margin-top: 16px;
+    min-height: 82px;
+}
+
+#carouselExampleCaptions .btn {
+    font-family: LamaSans-Bold;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 6px 12px;
+    border-radius: 24px;
+    text-align: center;
+    vertical-align: middle;
+    border: none !important;
+    transition: all .2s ease-in-out;
+}
+
+#carouselExampleCaptions .btn:hover {
+    transform: scale(1.1);
+}
+
+#firstBtn {
+    background-color: #7862AA;
+}
+
+#secondBtn {
+    background-color: #ED3A79;
+}
+
+#thirdBtn {
+    background-color: #00D0B2;
+}
+
+#fourthBtn {
+    background-color: #F26C3B;
+}
+
+#fifthBtn {
+    background-color: #00BCE9;
+}
+
+#carouselExampleCaptions .btn {
+    margin-bottom: 13%;
+}
+
+
+/* Change the Carousel Indicators style to Dots */
+.carousel-indicators .active {
+    background: white !important;
+}
+
+#carouselExampleCaptions .carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: 2px solid white;
+    background: transparent;
+}
+
+
+
+/* EidIdentityBG Section */
+
+
+.eidIdentityBG {
+    background-color: #F68B1F;
+    background-image: url(../images/EidIdentityBG.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+.eidIdentityBG .docer {
+    position: absolute;
+    background-size: contain !important;
+}
+
+.eidIdentityBG .docer-1 {
+    background: url(../images/file-docer-1.png) no-repeat;
+    width: 150px;
+    height: 106px;
+    top: 12%;
+    right: 10%;
+}
+
+.eidIdentityBG .docer-2 {
+    background: url(../images/file-docer-4.png) no-repeat;
+    width: 105px;
+    height: 183px;
+    top: 48%;
+    right: -3%;
+}
+
+.eidIdentityBG .docer-3 {
+    background: url(../images/file-docer-5.png) no-repeat;
+    width: 80px;
+    height: 105px;
+    bottom: 0;
+    left: 20%;
+}
+
+
+.eidIdentityBG .btn {
+    transition: all .2s ease-in-out;
+}
+
+.eidIdentityBG .btn:hover {
+    transform: scale(1.1);
+    background-color: #FCB415 !important;
+}
+
+
+
+.w-100 {
+    margin: 0 auto;
+}
+
+.eidIdentityBG .bg-box img {
+    max-height: 140px;
+
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.bg-box {
+    background-color: #fcb415;
+    text-align: center;
+    min-height: 170px;
+    line-height: 170px;
+}
+
+
+.btn-1,
+.btn-2,
+.btn-3,
+.btn-4,
+.btn-5 {
+    border-radius: 24px !important;
+    border: none !important;
+    font-family: LamaSans-Bold !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    padding: 6px 12px !important;
+}
+
+.btn-1 {
+    background-color: #ED3A79 !important;
+}
+
+.btn-2 {
+    background-color: #fcb415 !important;
+}
+
+.btn-3 {
+    background-color: #212529 !important;
+}
+
+.btn-4 {
+    background-color: #F26C3B !important;
+}
+
+.btn-5 {
+    background-color: #00BCE9 !important;
+}
+
+
+/* EidGreetings Section */
+
+.vh-100 {
+    height: 100% !important;
+}
+
+#eidGreetings {
+    background: #7862AA url(../images/EidGreetingsBG.png) no-repeat bottom !important;
+    background-blend-mode: multiply;
+}
+
+#eidGreetings .docer {
+    position: absolute;
+    background-size: contain !important;
+    z-index: 1;
+}
+
+#eidGreetings .docer-4 {
+    background: url(../images/docer-1.png) no-repeat;
+    top: 14%;
+    right: 8%;
+    width: 87px;
+    height: 88px;
+}
+
+#eidGreetings .docer-5 {
+    background: url(../images/docer-2.png) no-repeat;
+    top: 0;
+    left: 15%;
+    width: 150px;
+    height: 115px;
+}
+
+#EidGreetings .image {
+    position: relative;
+    z-index: 2;
+}
+
+#EidGreetings .text {
+    z-index: 2;
+}
+
+
+
+#enough {
+    text-align: right !important;
+}
+
+#enoughBtn {
+    color: #7862aa !important;
+    background-color: #FBB315 !important;
+    border-radius: 35px !important;
+    padding: 6px 16px !important;
+    font-family: LamaSans-ExtraBold !important;
+    transition: all .2s ease-in-out !important;
+}
+
+#enoughBtn:hover {
+    transform: scale(1.1) !important;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+#congrtz {
+    font-family: LamaSans-Bold;
+    font-size: 44px;
+    line-height: 53px;
+    margin: 8px 0 0 0;
+}
+
+#congrtz-2 {
+    font-family: LamaSans-Bold;
+    font-size: 22px;
+    line-height: 26px;
+    margin-top: 8px;
+}
+
+/* Footer Section */
+
+footer {
+    background: #7862AA url(../images/FooterBg.png) no-repeat;
+    background-size: cover !important;
+    background-blend-mode: multiply;
+    height: 384px;
+    float: left;
+    width: 100%;
+    background-position: bottom;
+}
+
+.pb-5 {
+    padding-bottom: 3rem !important;
+}
+
+.pt-5 {
+    padding-top: 3rem !important;
+}
+
+footer .footer-logo {
+    height: 150px;
+}
